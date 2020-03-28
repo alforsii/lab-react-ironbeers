@@ -1,0 +1,24 @@
+.beers-div {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: cadetblue;
+}
+img.beer-img {
+    width: 100px;
+}
+.each-beer {
+    display: flex; 
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+    max-width: 100%;
+    background-color: burlywood;
+}
+.each-beer p,
+.each-beer li {
+    width: 200px;
+    font-size: 14px;
+    margin: 0;
+}
